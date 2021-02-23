@@ -1,0 +1,48 @@
+body{
+    background-image: url("./images/background.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:absolute;
+    background-color:rgb(146, 141, 141);
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color:#FFFFFF;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2) ;
+    padding:0px 5%;
+}
+
+nav ul li:active{
+    transform:scale(1.1)
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin:30px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color:#505050;
+    font-size:15px;
+    font-weight: 700;
+}
+
+main{
+   
+}
+
+#headshot{
+    height: 200px;
+    border-radius: 300%;
+}
+
+header h1{
+    font-size: 300px;
+}
