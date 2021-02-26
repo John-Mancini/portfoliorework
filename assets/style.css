@@ -1,19 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-image: url("./images/background.png");
     background-repeat: no-repeat;
     background-size:cover;
     position:absolute;
     background-color:rgb(146, 141, 141);
-    margin: 0px;
-    padding: 0px;
+    width:100%;
 }
+
+figure img{
+    border-radius: 300%;
+    display: flex;
+    margin-left: 35%;
+    text-align: center;
+}
+
 
 ul{
     list-style-type: none;
 }
 
-li{
+nav li{
     list-style-type: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 nav{
@@ -42,15 +57,78 @@ nav ul li a{
     font-weight: 700;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.header{
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+
+.header h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight:bold;
+    color:black;
+    font-size: 50px;
+    text-align: center;
+}
+.header P:nth-child(2){
+    color:#403e3e;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 5px;
+    text-align: center;
+    
+}
+.header P:nth-child(3){
+    font-family:calibri;
+    color:#403e3e;
+    font-size:40px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.header p{
+    line-height: 0px;
+    margin:45px 0px 25px;
+}
+.header button{
+    width: 130px;
+    height:25px;
+    border-Radius:10px;
+    font-family: calibri;
+    font-weight:bold;
+    font-size:14px;
+    outline:none;
+    margin:0px 10px;
+    text-align: center;
+    margin-left: 47%;
+}
+.download{
+    background-color:#0b0b0b;
+    color:#FFF;
+    border:none;
+}
+
+button:active{
+    transform:scale(1.1)
+}
+
 main{
-   
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#headshot{
-    height: 200px;
-    border-radius: 300%;
-}
 
-header h1{
-    font-size: 300px;
-}
+aside {
+    flex: 90;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+
+  }
+
